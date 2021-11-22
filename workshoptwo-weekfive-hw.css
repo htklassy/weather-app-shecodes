@@ -1,0 +1,151 @@
+body {
+  background-color: rgb(243, 243, 243);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #141414;
+}
+h2,
+h3 {
+  text-align: right;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+h4 {
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+h5 {
+  text-align: center;
+  font-size: 14px;
+}
+a {
+  margin: 0 auto;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: line-through;
+}
+
+.input-search-box {
+  display: inline;
+  width: 35%;
+  border: none;
+  border-bottom: 1px solid rgba(150, 170, 180, 0.8);
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.input-search-button {
+  background-color: rgb(67, 54, 243);
+  color: white;
+  border: none;
+  border-radius: 60px;
+  padding: 10px 40px;
+}
+.input-search-button:hover {
+  transition: all 200ms ease;
+  opacity: 0.9;
+}
+.current-location-button {
+  background-color: white;
+  color: rgb(67, 54, 243);
+  border: 2px solid rgb(67, 54, 243);
+  border-radius: 60px;
+  padding: 10px 40px;
+  position: relative;
+  top: -45px;
+  right: -870px;
+}
+.current-location-button:hover {
+  background-color: rgb(67, 54, 243);
+  color: white;
+  transition: all 200ms ease;
+}
+.main-weather-box {
+  display: block;
+  margin: 100px auto;
+  padding: 50px;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.current-temperature {
+  font-size: 80px;
+}
+.temp-f-c {
+  font-size: 20px;
+  margin: 0 auto;
+  opacity: 0.6;
+}
+.middle-weather-box {
+  padding: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*border: 1px solid black;*/
+  border: none;
+  border-top: none;
+  border-bottom: none;
+}
+.current-time {
+  opacity: 0.8;
+}
+.current-weather-icon {
+  font-size: 80px;
+  color: wheat;
+}
+.high-temp,
+.low-temp {
+  display: inline;
+  text-align: center;
+}
+.high-temp {
+  font-weight: bolder;
+}
+.low-temp {
+  font-weight: 300;
+}
+.days-of-week {
+  padding: 10px;
+  /*border: 1px solid black;*/
+  border-top: none;
+  border: none;
+  border-bottom: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 16px;
+  font-weight: 800;
+}
+.days-of-week-icon {
+  font-size: 22px;
+  color: wheat;
+}
+.w-p-h {
+  padding-top: 20px;
+  opacity: 0.6;
+  line-height: 28px;
+  color: slateblue;
+}
+.git-hub-link {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
